@@ -9,11 +9,11 @@ Infrastructure Integration Roadmap Task
 
 ## Summary
 
-ACCESS Metrics provides [*ACCESS XDMoD*](https://xdmod.access-ci.org) and various data reporting and analysis services. XDMoD provides reporting on a wide range of CI metrics. This includes CI efficiency reporting that is available to end users, PIs and RP staff.
+ACCESS Metrics provides [*ACCESS XDMoD*](https://xdmod.access-ci.org) and various data reporting and analysis services. XDMoD provides reporting on a wide range of CI metrics. This includes CI storage reporting that is available to end users, PIs and RP staff.
 
-The main data source for the efficiency reporting is low-level performance data collected from each CI resource. CI resource providers must periodically transfer a copy of the low-level performance data to ACCESS Metrics so that it can be processed and displayed in XDMoD.
+The main data source for the storage reporting is data collected from each CI resource. CI resource providers must periodically transfer a copy of the data to ACCESS Metrics so that it can be processed and displayed in XDMoD.
 
-This task involves setting up the data transfer of performance data.
+This task involves setting up the data transfer of storage data.
 
 ## Prerequisite tasks
 
@@ -25,7 +25,7 @@ For assistance with this task see the *Support Information* section in the *Inte
 
 ## Detailed Instructions
 
-The low-level performance data files must be periodically sent to ACCESS Metrics. The recommended configuration is to use daily increments data transfers. ACCESS Metrics support three types of data transfer design. The choice of data transfer mechanism depends on the RP preferences:
+The storage data files must be periodically sent to ACCESS Metrics. The recommended configuration is to use data transfers in daily increments. ACCESS Metrics support three types of data transfer design. The choice of data transfer mechanism depends on the RP preferences:
 
 1.  Globus Transfer with scheduled transfers
 
